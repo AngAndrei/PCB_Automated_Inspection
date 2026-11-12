@@ -1,0 +1,24 @@
+# Human-readable baseline mirrored by pcb_inspection.ml.train CLI defaults.
+model: yolo26n.pt
+epochs: 100
+imgsz: 640
+batch: 4
+device: auto
+workers: 0
+patience: 20
+seed: 42
+fraction: 1.0
+nms: true
+mosaic: 0.0
+mixup: 0.0
+copy_paste: 0.0
+degrees: 0.0
+translate: 0.05
+scale: 0.1
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.1
